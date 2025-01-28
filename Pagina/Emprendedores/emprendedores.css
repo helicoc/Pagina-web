@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.imggobierno{
+    width: 200px;
+    height: 60px;
+    margin: 5px;
+    
+    }
+    
+    .gwd-line-a2f6 {
+        stroke-width: 1px;
+        stroke: rgb(255, 255, 255);
+        height: 65px;
+        flex-grow: 0;
+        flex-shrink: 1;
+        width: 10.23529px;
+        position: absolute;
+        left: 230px;
+        top: 7px;
+    }
+    .logoinstituto:hover{
+        transform: scale(1.1);
+        }
+        
+        .logoministerio:hover{
+            transform: scale(1.1);
+            }
+        
+         .logobancomujer:hover{
+                transform: scale(1.4);
+                }
+        
+        .logofooter{
+        
+            width: 180px;
+            height: 90px;
+            float: left;
+            margin-right: 5px;
+        }
+        
+        .logoinstituto{
+            transition: all 0.3s;
+            width: 170px;
+            height: 190px;
+            margin-right: 5px;
+        
+        }
+        
+        .logoministerio{
+            transition: all 0.3s;
+            width: 480px;
+            height: 90px;
+            float: right;
+        
+        }
+        
+        .logobancomujer{
+            transition: all 0.3s;
+            width: 180px;
+            height: 90px;
+            float: left;
+            margin-right: 5px;
+        
+        }
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        header nav ul li {
+            margin: 0 15px;
+        }
+        
+        header nav ul li a {
+            color: #000000;
+            text-decoration: none;
+        }
+        
+        .social-icons a {
+            color: #000000;
+            margin-left: 10px;
+        }
+        
+    .primer{
+     display: flex;
+     color: black;
+     height: 65px;
+     width: 300px;
+     left: 250px;
+     top: 7px;
+     margin: 5px;
+     position: absolute;
+    }
+    .logos{
+
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        gap: 10px; 
+        flex-wrap: wrap; 
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: whitesmoke;
+        color: #fff;
+        padding: 10px 20px;
+    }
+    
+    .btninicio {
+        padding: 8px 8px;
+        border: 2px solid #2c2c2c;
+        background-color: #1a1a1a;
+        color: #ffffff;
+        font-size: 1.2rem;
+        cursor: pointer;
+        border-radius: 30px;
+        transition: all 0.4s ease;
+        outline: none;
+        position: relative;
+        overflow: hidden;
+        font-weight: bold;
+      }
+      
+      .btninicio::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(
+          circle,
+          rgba(255, 255, 255, 0.25) 0%,
+          rgba(255, 255, 255, 0) 70%
+        );
+        transform: scale(0);
+        transition: transform 0.5s ease;
+      }
+      
+      .btninicio:hover::after {
+        transform: scale(4);
+      }
+      
+      .btninicio:hover {
+        border-color: #666666;
+        background: #292929;
+      }
+    
+.primer{
+    display: flex;
+    color: black;
+    height: 65px;
+    width: 300px;
+    left: 250px;
+    top: 7px;
+    margin: 5px;
+    position: absolute;
+   }
+
+   .logo {
+    width: 120px;
+    height: 60px;
+}
+
+footer {
+    background: #005eb8;
+    color: #fff;
+    text-align: right;
+    padding: 6px;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#emprendedoresContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#searchBar {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+}
